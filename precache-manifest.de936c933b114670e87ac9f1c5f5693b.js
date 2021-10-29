@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/js/8.0a115515.chunk.js"
   },
   {
-    "revision": "806de1dcc73dbb90863b",
-    "url": "/static/js/9.34794bd0.chunk.js"
+    "revision": "a21c537a59725b9739d2",
+    "url": "/static/js/9.23f8b5ec.chunk.js"
   },
   {
     "revision": "c351079137110a7d0177",
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/static/js/main.3f6a3f17.chunk.js"
   },
   {
-    "revision": "1bf92be36405156eaede",
-    "url": "/static/js/runtime~main.529897c8.js"
+    "revision": "e5d925629ed3e90917a5",
+    "url": "/static/js/runtime~main.23cf6c71.js"
   },
   {
     "revision": "3a00350e01871f91f7a7",
@@ -200,24 +200,24 @@ self.__precacheManifest = [
     "url": "/static/media/ground-badminton.6a7d03a6.png"
   },
   {
-    "revision": "76c7a1e447ea212dc9e06e9d353a18f1",
-    "url": "/static/media/ground-baseball.76c7a1e4.png"
-  },
-  {
     "revision": "34af5d881cdce4731b66601eb49d6382",
     "url": "/static/media/hall-of-fame-banner.34af5d88.png"
   },
   {
-    "revision": "e3c127fd213362b09092549cc0373489",
-    "url": "/static/media/bottom-banner-img.e3c127fd.png"
+    "revision": "230555b51a07f3a9d32d475e706d5124",
+    "url": "/static/media/football-ground.230555b5.png"
+  },
+  {
+    "revision": "76c7a1e447ea212dc9e06e9d353a18f1",
+    "url": "/static/media/ground-baseball.76c7a1e4.png"
   },
   {
     "revision": "9c0adfa44473fe82701b83d6ed4b5c59",
     "url": "/static/media/basketball-ground.9c0adfa4.png"
   },
   {
-    "revision": "230555b51a07f3a9d32d475e706d5124",
-    "url": "/static/media/football-ground.230555b5.png"
+    "revision": "e3c127fd213362b09092549cc0373489",
+    "url": "/static/media/bottom-banner-img.e3c127fd.png"
   },
   {
     "revision": "8bc96189b5f8dda4eb8ad70af08a9af2",
@@ -226,6 +226,10 @@ self.__precacheManifest = [
   {
     "revision": "fd9830cd1a23da17863822a38de83314",
     "url": "/static/media/ground-kabaddi.fd9830cd.svg"
+  },
+  {
+    "revision": "e34a7cab5f75a336588d68485b221c58",
+    "url": "/static/media/404-banner-img.e34a7cab.svg"
   },
   {
     "revision": "8e45b7d64aa77f947209a04046806e23",
@@ -240,20 +244,16 @@ self.__precacheManifest = [
     "url": "/static/media/banner-circle-shape.8eb24c44.svg"
   },
   {
-    "revision": "e34a7cab5f75a336588d68485b221c58",
-    "url": "/static/media/404-banner-img.e34a7cab.svg"
-  },
-  {
     "revision": "2eecbaa4630586c7e20c1e3191091614",
     "url": "/static/media/rank3.2eecbaa4.svg"
   },
   {
-    "revision": "ba246b754686e5f7fc861a20da142c34",
-    "url": "/static/media/rank2.ba246b75.svg"
-  },
-  {
     "revision": "dbfb82cd329a7abbf11ada9d010ac915",
     "url": "/static/media/rank1.dbfb82cd.svg"
+  },
+  {
+    "revision": "ba246b754686e5f7fc861a20da142c34",
+    "url": "/static/media/rank2.ba246b75.svg"
   },
   {
     "revision": "086a18b6fe8ca0b5c05ba6b6e350dfd5",
@@ -268,16 +268,16 @@ self.__precacheManifest = [
     "url": "/static/media/geomanist_bold.358476fe.ttf"
   },
   {
-    "revision": "561ff462e24b790c93bd5b0d302c0230",
-    "url": "/static/media/Geomanist-Medium.561ff462.ttf"
-  },
-  {
     "revision": "1bf48629382e667111c8f3961f91370d",
     "url": "/static/media/Geomanist-Medium.1bf48629.woff2"
   },
   {
     "revision": "f98d3dcf29a7da0ff2a1c82deff47fcd",
     "url": "/static/media/Geomanist-Medium.f98d3dcf.woff"
+  },
+  {
+    "revision": "561ff462e24b790c93bd5b0d302c0230",
+    "url": "/static/media/Geomanist-Medium.561ff462.ttf"
   },
   {
     "revision": "6ef9b38cc9f0019c8a25979e7e42d362",
@@ -288,36 +288,36 @@ self.__precacheManifest = [
     "url": "/static/media/Geomanist-Regular.a5ba87be.woff"
   },
   {
-    "revision": "9ea337fad3ca1c1f5bca2b421c533ee3",
-    "url": "/static/media/icomoon.9ea337fa.eot"
-  },
-  {
     "revision": "3bf6aeb32a7b12149ccc62c5aef89bb5",
     "url": "/static/media/Geomanist-Regular.3bf6aeb3.ttf"
   },
   {
-    "revision": "2d88eb5dc667d55168c38b9c31a0df5e",
-    "url": "/static/media/icomoon.2d88eb5d.woff"
+    "revision": "9ea337fad3ca1c1f5bca2b421c533ee3",
+    "url": "/static/media/icomoon.9ea337fa.eot"
   },
   {
     "revision": "063cec006542d508da0f479b3257072e",
     "url": "/static/media/icomoon.063cec00.ttf"
   },
   {
-    "revision": "00b374f062427b1d753aba5476296df8",
-    "url": "/static/media/icomoon.00b374f0.svg"
-  },
-  {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/static/media/slick.d41f55a7.ttf"
+    "revision": "2d88eb5dc667d55168c38b9c31a0df5e",
+    "url": "/static/media/icomoon.2d88eb5d.woff"
   },
   {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/static/media/slick.ced611da.eot"
   },
   {
+    "revision": "00b374f062427b1d753aba5476296df8",
+    "url": "/static/media/icomoon.00b374f0.svg"
+  },
+  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -328,7 +328,7 @@ self.__precacheManifest = [
     "url": "/static/media/Unauthorised.7ab762e4.jpg"
   },
   {
-    "revision": "21abe52ac6d2a5e16cf3a26916cb1715",
+    "revision": "a1b8f63618fb29cb244bf59dd1a65ebb",
     "url": "/index.html"
   }
 ];
