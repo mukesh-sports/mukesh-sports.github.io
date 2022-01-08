@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate Sports Quiz </title>
+    <title>VuSport</title>
     <style>
         html,
         body {
             margin: 0;
             padding: 0;
-            background: black;
+            /* background: black; */
         }
 
         .img-container {
@@ -39,7 +39,9 @@
 
         @media (max-width: 599px) {
             .icon-container {
-                right: 1rem;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 100%;
             }
 
             a>img {
@@ -77,7 +79,7 @@
 
         @media (min-width: 599px) {
             .icon-container {
-                margin: 1rem;
+                margin: 1rem;                
             }
 
             a>img {
@@ -107,17 +109,14 @@
             }
         }
     </style>
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="img-container">
         <picture>
-            <source media="(max-width: 599px)" srcset="./images/usq-mobile.png">
-            <source media="(min-width: 600px)" srcset="./images/usq-desktop.jpg">
-            <img class="img-banner" src="./usq-desktop.jpg" alt="Ultimate Sports Quiz" />
+            <source media="(max-width: 599px)" srcset="./images/vu-desktop.png">
+            <source media="(min-width: 600px)" srcset="./images/vu-desktop.png">
+            <img class="img-banner" src="./images/vu-desktop.png" alt="Ultimate Sports Quiz" />
         </picture>
     </div>
     <div class="icon-container">
