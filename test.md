@@ -83,3 +83,8 @@ Flutter app architecure patterns
 > Flutter will go through your widgets and create the Widget tree.
 > Corresponding to the Widget tree, Flutter creates the Element tree in which each Element object is created by calling createElement() on the widget.
 > Each render object will be created when Element calls createRenderObject().
+
+
+- https://docs.flutter.dev/resources/architectural-overview
+
+- Deferred components - https://docs.flutter.dev/perf/deferred-components
