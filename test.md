@@ -77,3 +77,9 @@ A stateful widget has the following lifecycle stages:
 
 - ScopedModel and BLoC (Business Logic Components) 
 Flutter app architecure patterns
+
+
+- What is a Render Object?
+> Flutter will go through your widgets and create the Widget tree.
+> Corresponding to the Widget tree, Flutter creates the Element tree in which each Element object is created by calling createElement() on the widget.
+> Each render object will be created when Element calls createRenderObject().
