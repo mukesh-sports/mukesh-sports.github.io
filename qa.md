@@ -37,3 +37,13 @@ Bug: It is defined as a fault or mismatch in a software system that is detected 
 
 ---
 Positive and Negative Testing  and why it is important.
+
+---
+
+Integration Testing?
+Big bang testing 
+Bottom-Up Testing 
+
+---
+
+Top-Down Testing 
