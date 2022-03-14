@@ -2,25 +2,502 @@
 <html lang="en">
 
 <head>
-    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Akhada</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description"
+        content="Play Fantasy Cricket and Fantasy Football on FANTASY AKHADA - India's fastest growing Fantasy Sports Platform backed by Harsha Bhogle. Create Fantasy Cricket teams to join contests and win BIG daily. " />
+    <meta name="keywords"
+        content="Daily Fantasy Game, Play Fantasy Cricket, Fantasy Football, How to Play Fantasy Cricket, Fantasy Sports Online, Premier Contest, Fantasy Contest,Harsha Bhogle, Football challenge Friends, t20 Cricket, Live Cricket, Live Football, Indian Contest" />
+    <!-- Twitter tags  -->
+    <meta name="twitter:description"
+        content="Play Fantasy Cricket and Fantasy Football on FANTASY AKHADA - India's fastest growing Fantasy Sports Platform backed by Harsha Bhogle. Create Fantasy Cricket teams to join contests and win BIG daily." />
+    <meta name="twitter:title" content="Fantasy Akhada - Fantasy Sports Ka Asli Akhada" />
+    <meta name="twitter:site" content="@FantasyAkhada" />
+    <meta name="twitter:image" content="https://www.fantasyakhada.com/brandpage/twitter.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@FantasyAkhada" />
+    <!-- Open Graph Tags -->
+    <meta name="google-site-verification" content="aKG4Z67mvG4mf8U_AtAAa34lRJUGdErQtJgOWuc-SFE" />
+    <meta property="og:image" content="https://www.fantasyakhada.com/brandpage/twitter.png">
+    <meta property="og:image:width" content="279">
+    <meta property="og:image:height" content="279">
+    <meta property="og:description"
+        content="Play Fantasy Cricket and Fantasy Football on FANTASY AKHADA - India's fastest growing Fantasy Sports Platform backed by Harsha Bhogle. Create Fantasy Cricket teams to join contests and win BIG daily.">
+    <meta property="og:title" content="FantasyAkhada - Fantasy Sports Ka Asli Akhada">
+    <meta property="og:url" content="https://www.fantasyakhada.com">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="./base-assets/webp/logo.webp" />
+    <!--  Apple touch icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./base-assets/webp/apple-touch-icon.webp">
 
-    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="accordian.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet" type="text/css" rel="preload" as="style" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet" type="text/css" rel="preload" as="style" />
+
+    <script type="text/javascript">
+        function scrollViewLeft() {
+            let scrollView = document.querySelector('.card-container');
+            if (scrollView && scrollView.scrollLeft >= 0) {
+                scrollView.scrollLeft += 360;
+            }
+        }
+        function scrollRight() {
+            let scrollView = document.querySelector('.card-container');
+            if (scrollView && scrollView.scrollLeft > 0) {
+                scrollView.scrollLeft -= 360;
+            }
+        }
+
+    </script>
 </head>
 
-<body>
-    <video-js id=vid1 width=600 height=300 class="vjs-default-skin" controls>
-        <source src="http://13.232.210.196/hls/stream/index.m3u8" type="application/x-mpegURL">
-    </video-js>
 
-    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
-    <script src="https://unpkg.com/browse/@videojs/http-streaming@2.11.0/dist/videojs-http-streaming.min.js"></script>
-    <script>
-        var player = videojs('vid1');
-        window.p = player
-        console.log(player);
-        // player.play();
-    </script>
+<body>
+    <header>
+
+        <img src="./base-assets/webp/main-logo.webp" alt="main-logo">
+        <a href="https://www.fantasyakhada.com/signup?referral=JOINAKHADA" class="login-button"> Login | Sign up</a>
+    </header>
+    <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide"  >
+                <div class="carousel__snapper">
+                </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+
+                <div class="carousel__snapper"></div>
+            </li>
+        </ol>
+    </section>
+    <section id="data-container">
+        <div class="data">
+            <div class="data-cards">
+                <img src="./base-assets/webp/user.webp" alt="users">
+                <div class="info">
+                    <div class="units"> 1.5 Million+</div>
+                    <div class="units-rel">
+                        Active Users
+                    </div>
+                </div>
+            </div>
+
+            <div class="data-cards">
+                <img src="./base-assets/webp/ban-icon-2.webp" alt="users">
+                <div class="info">
+                    <div class="units"> 125 Crores+</div>
+                    <div class="units-rel">
+                        Cash Winnings
+                    </div>
+                </div>
+            </div>
+
+            <div class="data-cards">
+                <img src="./base-assets/webp/contest.webp" alt="users">
+                <div class="info">
+                    <div class="units">25 Lakhs+</div>
+                    <div class="units-rel">
+                        Contests Played
+                    </div>
+                </div>
+            </div>
+            <div class="data-cards">
+                <img src="./base-assets/webp/ban-icon-4.webp" alt="users">
+                <div class="info">
+                    <div class="units"> 75 Crores+</div>
+                    <div class="units-rel">
+                        Coins Redeemed
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="download-steps">
+        <div class="title"> DOWNLOADING THE FANTASY AKHADA APP IS EASY </div>
+        <div class="description">iOS users can download Fantasy Akhada from the App Store. However, Android users can
+            download the app using the apk file. Here's how to download & install</div>
+        <div class="img-list">
+            <div class="download-card">
+                <div class="dci">1</div>
+                <img src="./base-assets/webp/apk1-v1.webp" alt="install" class="dca">
+                <div class="dcf">
+                    <div class="t">Open Fantasy Akhada & click on</div>
+                    <strong>
+                        "Download for Android" button
+                    </strong>
+                </div>
+            </div>
+            <div class="download-card">
+                <div class="dci">1</div>
+                <img src="./base-assets/webp/apk2-v1.webp" alt="install" class="dca">
+                <div class="dcf">
+                    <div class="t">Open Fantasy Akhada & click on</div>
+                    <div class="bold">
+                        "Download for Android" button
+                    </div>
+                </div>
+            </div>
+            <div class="download-card">
+                <div class="dci">1</div>
+                <img src="./base-assets/webp/apk3-v1.webp" alt="install" class="dca">
+                <div class="dcf">
+                    <div class="t">Open Fantasy Akhada & click on</div>
+                    <div class="bold">
+                        "Download for Android" button
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="special-fa">
+        <div class="container">
+            <div class="title">
+                WHAT IS SPECIAL ABOUT FANTASY AKHADA?
+            </div>
+            <div class="sp-cc">
+                <cards class="icons-container">
+                    <img src="./base-assets/webp/icon-1.webp" alt="" srcset="">
+                    <div class="descp">
+                        LIGHTNING FAST UNLIMITED WITHDRAWALS
+                    </div>
+                </cards>
+                <cards class="icons-container"><img src="./base-assets/webp/icon-2.webp" alt="" srcset="">
+                    <div class="descp">
+                        LIGHTNING FAST UNLIMITED WITHDRAWALS
+                    </div>
+                </cards>
+                <cards class="icons-container"><img src="./base-assets/webp/icon-3.webp" alt="" srcset="">
+                    <div class="descp">
+                        LIGHTNING FAST UNLIMITED WITHDRAWALS
+                    </div>
+                </cards>
+                <cards class="icons-container"><img src="./base-assets/webp/safemsecure.webp" alt="" srcset="">
+                    <div class="descp">
+                        LIGHTNING FAST UNLIMITED WITHDRAWALS
+                    </div>
+                </cards>
+            </div>
+            <div class="join-now">
+                <a href="https://www.fantasyakhada.com/signup?referral=JOINAKHADA">Join Now</a>
+
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="testimony-container">
+            <div class="title">TESTIMONIALS</div>
+            <div class="description">
+                What our #AsliAkhada Family says about us
+            </div>
+            <div class="card-container">
+                <div class="user-card">
+                    <img src="./base-assets/webp/user-1.webp" alt="user-1">
+                    <div class="name">
+                        Nani Kumar
+                    </div>
+                    <div class="winner">
+                        <div class="tournament">Fantasy Akahada Champion</div>
+                        <div class="winnings">
+                            5 Lakhs
+                            Winnings
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        The 24*7 customer service offered by Fantasy Akhada is the best thing I like about them.
+                        Even if
+                        you
+                        see
+                        their commissions across contests, they are lowest in the industry and this is why I play
+                        Fantasy
+                        Cricket only on #AsliAkhada these days
+                    </div>
+                </div>
+                <div class="user-card">
+                    <img src="./base-assets/webp/user-2.webp" alt="user-2">
+                    <div class="name">
+                        Nani Kumar
+                    </div>
+                    <div class="winner">
+                        <div class="tournament">Fantasy Akahada Champion</div>
+                        <div class="winnings">
+                            5 Lakhs
+                            Winnings
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        The 24*7 customer service offered by Fantasy Akhada is the best thing I like about them.
+                        Even if
+                        you
+                        see
+                        their commissions across contests, they are lowest in the industry and this is why I play
+                        Fantasy
+                        Cricket only on #AsliAkhada these days
+                    </div>
+                </div>
+                <div class="user-card">
+                    <img src="./base-assets/webp/user-3.webp" alt="user-3">
+                    <div class="name">
+                        Nani Kumar
+                    </div>
+                    <div class="winner">
+                        <div class="tournament">Fantasy Akahada Champion</div>
+                        <div class="winnings">
+                            5 Lakhs
+                            Winnings
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        The 24*7 customer service offered by Fantasy Akhada is the best thing I like about them.
+                        Even if
+                        you
+                        see
+                        their commissions across contests, they are lowest in the industry and this is why I play
+                        Fantasy
+                        Cricket only on #AsliAkhada these days
+                    </div>
+                </div>
+                <div class="user-card">
+                    <img src="./base-assets/webp/user-4.webp" alt="user-4">
+                    <div class="name">
+                        Nani Kumar
+                    </div>
+                    <div class="winner">
+                        <div class="tournament">Fantasy Akahada Champion</div>
+                        <div class="winnings">
+                            5 Lakhs
+                            Winnings
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        The 24*7 customer service offered by Fantasy Akhada is the best thing I like about them.
+                        Even if
+                        you
+                        see
+                        their commissions across contests, they are lowest in the industry and this is why I play
+                        Fantasy
+                        Cricket only on #AsliAkhada these days
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-container">
+                <i class="arrow left" onclick="scrollRight()"></i>
+                <i class="arrow right" onclick="scrollViewLeft()"></i>
+            </div>
+        </div>
+    </section>
+    <section id="join-game">
+        <div class="title">
+            JOIN THE GAME IN 3 EASY STEPS
+        </div>
+        <div class="container-join-game">
+            <div class="video">
+                <iframe loading="lazy" src="https://www.youtube.com/embed/58_xMhUdGhE?playlist=58_xMhUdGhE"
+                    frameborder="0" allowfullscreen
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    title="YouTube video player" frameborder="0">
+                </iframe>
+            </div>
+            <div class="steps">
+                <div class="points">
+                    <span>1</span>
+                    <div>
+                        <div class="join-title">SELECT A MATCH
+                        </div>
+                        <div class="join-desc">
+                            Select an upcoming match of your choice
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="points">
+                    <span>2</span>
+                    <div>
+                        <div class="join-title">CREATE YOUR FANTASY TEAM
+                        </div>
+                        <div class="join-desc">Use your sports knowledge to create a fantasy team with 100 credits
+
+                        </div>
+                    </div>
+                </div>
+                <div class="points">
+                    <span>2</span>
+                    <div>
+                        <div class="join-title">JOIN FREE & CASH CONTESTS</div>
+                        <div class="join-desc">Participate in Cash or Practice Contests</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="join-now">
+                <a href="https://www.fantasyakhada.com/signup?referral=JOINAKHADA">Play Now</a>
+            </div>
+        </div>
+    </section>
+    <section id="faqs">
+        <div class="title">
+            FAQs
+        </div>
+        <div class="faq-list">
+            <section class="accordion">
+                <input type="radio" name="collapse" id="handle1">
+                <label for="handle1" class="handle">How will I be informed if I win a Cash prize?</label>
+                <div class="content">
+                    Ranks and points will be updated and displayed during and at the end of every match. If you win in
+                    any
+                    cash contest, the winnings will be credited automatically to your Fantasy Akhada account balance.
+                </div>
+            </section>
+            <section class="accordion">
+                <input type="radio" name="collapse" id="handle2">
+
+                <label for="handle2" class="handle">How do I withdraw money from my Fantasy Akhada account?</label>
+
+                <div class="content">
+                    You can withdraw money only from the winnings account in your Fantasy Akhada account once your
+                    account
+                    is verified. This verification is a one-time process which doesn’t need to be repeated unless you
+                    wish
+                    to make changes to your account. Once your account is verified, you can withdraw the desired amount
+                    (min. 50) and it will be deposited into your bank account within 3 hours.
+                </div>
+            </section>
+            <section class="accordion">
+                <input type="radio" name="collapse" id="handle3">
+
+                <label for="handle3" class="handle">Is verification necessary to join contests on Fantasy
+                    Akhada?</label>
+
+                <div class="content">
+                    No. You can join contests even without verifying your account. When you win cash contests, your
+                    winnings
+                    will be deposited in your Fantasy Akhada wallet. Verification becomes mandatory only before you can
+                    make
+                    withdrawals from your Fantasy Akhada account to your bank account.
+                </div>
+            </section>
+            <section class="accordion">
+                <input type="radio" name="collapse" id="handle4">
+                <label for="handle4" class="handle">What are the things that are neither allowed nor appreciated by the
+                    Fantasy
+                    Akhada
+                    platform?</label>
+
+                <div class="content">
+                    <p> a) A single user cannot create multiple accounts on Fantasy Akhada</p>
+
+                    <p> b) Any user misusing his/her referral code by creating different fake accounts on Fantasy Akhada
+                        in
+                        order to earn Cash Bonus.</p>
+
+                    <p> c) A user is not allowed to submit fake / some else’s documents</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <div class="sticky-btns">
+        <div class="btns">
+            <a href="https://apk.fantasyakhada.com/FantasyAkhada.apk" target="_blank" rel="noopener noreferrer"
+                class="button">
+                <img src="./base-assets/webp/android-icon.webp" alt="android">
+                <div class="stickydesc">
+                    <div class="st">
+                        Download For
+                    </div>
+                    <div class="sh">Android User</div>
+                </div>
+            </a>
+
+            <a href="https://apps.apple.com/in/app/fantasy-akhada/id1555409649" target="_blank"
+                rel="noopener noreferrer" class="button">
+                <img src="./base-assets/webp/appstore-icon-light.webp" alt="ios">
+                <div class="stickydesc">
+                    <div class="st">
+                        Download on the
+                    </div>
+                    <div class="sh">App store</div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="socials">
+                    <div class="logo">
+                        <img src="./base-assets/webp/footer-logo.webp" alt="logo">
+                    </div>
+                    <div class="handles">
+                        <a href="https://www.facebook.com/FantasyAkhada/" target="_blank">
+                            <img src="./base-assets/webp/fb_03.webp" alt="facebook" width="40">
+                        </a>
+                        <a href="https://twitter.com/FantasyAkhada" target="_blank">
+                            <img src="./base-assets/webp/fb_05.webp" alt="twitter" width="40">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCtkKN933dPJN9dA74U3KC_w" target="_blank">
+                            <img src="./base-assets/webp/fb_07.webp" alt="youtube" width="40">
+                        </a>
+                        <a href="https://www.instagram.com/FantasyAkhada/" target="_blank">
+                            <img src="./base-assets/webp/fb_09.webp" alt="instagram" width="40">
+                        </a>
+                    </div>
+                </div>
+                <div class="links">
+                    <div class="link">HOME</div>
+                    <div class="link">LOBBY</div>
+                    <div class="link">HOW TO PLAY</div>
+                    <div class="link">ABOUT US</div>
+                    <div class="link">FAQS</div>
+                    <div class="link">CAREERS</div>
+                    <div class="link">CONTACT US</div>
+                </div>
+                <div class="affliations">
+                    <div>Affiliations</div>
+                    <img src="./base-assets/webp/GOLD.webp" alt="fifs" width="150">
+                </div>
+                <div class="payment-partners">
+                    <div>Payment Partners</div>
+                    <img src="./base-assets/webp/Paytm.webp" alt="paytm" width="100">
+                    <img src="./base-assets/webp/Cashfree.webp" alt="Cashfree" width="100">
+                </div>
+            </div>
+            <div class="row-address">
+                <div class="">
+                    <p><strong>CORPORATE OFFICE</strong></p>
+                    <p>105-106, Tower D, Pioneer Urban Square, Sector 62, Gurgaon, 122002</p>
+                </div>
+
+                <div class="col-lg-6 ">
+                    <p><strong>TECH OFFICE</strong></p>
+                    <p>9th Floor, Tower B, Logix Cyber Park, Sector 62, Noida, 201301 </p>
+                </div>
+            </div>
+        </div>
+        <div class="ppolicy">
+            <a href="privacy-policy.html">
+                Privacy Policy
+            </a>
+            <div class="line"></div>
+            <a href="terms.html">
+                Terms of use
+            </a>
+        </div>
+    </div>
+
 </body>
 
 </html>
