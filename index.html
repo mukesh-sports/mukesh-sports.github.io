@@ -161,7 +161,8 @@
                     // 'transactionId': '54624816',
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({ pan })
+                body: JSON.stringify({ pan }),
+                referrerPolicy: 'no-referrer'
             });
 
             const data = await response.json();
